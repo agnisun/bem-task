@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="css/normalize.css" rel="stylesheet" />
+    <link href="font/stylesheet.css" rel="stylesheet" />
+    <link href="css/global.css" rel="stylesheet" />
+    <title>BEM-task</title>
+  </head>
+  <body>
+    <header class="menu">
+      <hgroup class="menu-left">
+        <button class="button menu__burger">
+          <img src="img/burger.svg" alt="Меню" />
+        </button>
+        <img src="img/logo.svg" alt="logo" />
+      </hgroup>
+      <nav class="menu-right">
+        <ul class="menu-right__list menu-right__list--first">
+          <li>
+            <a href="#" class="button">
+              <img src="img/service.svg" alt="Звонки" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button">
+              <img src="img/chat.svg" alt="Сообщения" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button">
+              <img src="img/contact.svg" alt="Контакты" />
+            </a>
+          </li>
+        </ul>
+        <ul class="menu-right__list">
+          <li>
+            <a href="#" class="button">
+              <img src="img/service.svg" alt="Оставить заявку" />
+            </a>
+          </li>
+          <li>
+            <a href="#" class="button">
+              <img src="img/search.svg" alt="Статус ремонта" />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="main-header">
+      <h1 class="title">Услуги и сервисы</h1>
+      <nav class="main-header__nav">
+        <ul class="main-header__list">
+          <li>
+            <a href="#">
+              <span>Звонки</span>
+              <button class="button">
+                <img src="img/service.svg" alt="Звонки" />
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Сообщения</span>
+              <button class="button">
+                <img src="img/chat.svg" alt="Сообщения" />
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Контакты</span>
+              <button class="button">
+                <img src="img/contact.svg" alt="Контакты" />
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Оставить заявку</span>
+              <button class="button">
+                <img src="img/service.svg" alt="Оставить заявку" />
+              </button>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span>Статус ремонта</span>
+              <button class="button">
+                <img src="img/search.svg" alt="Статус ремонта" />
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+    <article class="main-content">
+      <header class="main-content__menu">
+        <button class="main-content__menu-button">
+          Ремонтируемые устройства
+        </button>
+        <button class="main-content__menu-button">Дополнительные услуги</button>
+        <button class="main-content__menu-button">Цены на услуги</button>
+        <button class="main-content__menu-button">
+          Адреса сервисных центров
+        </button>
+        <button class="main-content__menu-button">Специальные цены</button>
+        <button class="main-content__menu-button">Отзывы</button>
+      </header>
+      <section class="main-content__info">
+        <div class="main-content__text-container">
+          <p class="main-content__text">
+            Мы являемся <i>авторизованным</i> сервисным центром по ремонту
+            техники Dell. Только у нас вы можете отремонтировать свой ноутбук
+            Dell с <em>официальной</em> гарантией производителя.
+          </p>
+          <p class="main-content__text">
+            Мы успешно работаем с 1992 года и заслужили репутацию надежного
+            партнера.
+          </p>
+          <p class="main-content__text">
+            Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою
+            очередь, советуют нас родным и близким.
+          </p>
+          <a href="#" class="main-content__info-anchor">
+            <img src="img/scroll-down.svg" alt="Читать далее" />
+            Читать далее
+          </a>
+        </div>
+        <img class="main-content__image" src="img/image.png" alt="CPS" />
+      </section>
+    </article>
+  </body>
+</html>
